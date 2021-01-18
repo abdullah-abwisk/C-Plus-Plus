@@ -24,6 +24,9 @@ int main()
     for(int i = 0; i < size / 2; i++)
         cout << sec_arr[i] << " ";
     cout << endl;
-
+    delete [] main_arr;
+    delete [] first_arr;
+    delete [] sec_arr;
+    
     return 0;             
 }
