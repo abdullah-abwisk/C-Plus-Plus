@@ -25,7 +25,7 @@ int main()
 		}
 	}
     cout << "Sorted array is: " << endl;
-    for(int i = 0; i < elements; i++)0
+    for(int i = 0; i < elements; i++)
     {
         cout << arr[i] << " ";
     }
@@ -40,6 +40,7 @@ int main()
     }
     cout << "The maximum difference is: " << max_diff << endl;
     cout << "The minimum difference is: " << min_diff << endl;
+    delete [] arr;    
 
     return 0;
 }
