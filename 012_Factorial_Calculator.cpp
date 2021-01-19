@@ -21,7 +21,7 @@ int main()
 	    
 	else
 	{
-		for (; number_entered >= 1; number_entered = number_entered - 1)
+		for (; number_entered >= 1; number_entered--)
 		{
 			factorial = factorial * number_entered;
 		}

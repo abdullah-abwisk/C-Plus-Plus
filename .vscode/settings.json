@@ -1,6 +1,7 @@
 {
   "files.associations": {
     "iostream": "cpp",
-    "terminal.external.windowsExec": "C:\\Windows\\system32\\cmd.exe"
+    "terminal.external.windowsExec": "C:\\Windows\\system32\\cmd.exe",
+    "ostream": "cpp"
   }
 }

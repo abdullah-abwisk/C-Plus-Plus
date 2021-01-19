@@ -18,7 +18,10 @@ int main()
 	{
 		bit_value = binary_num % 2;
 		if (bit_value % 10 > 1)
-	 	   binary_input = false;
+		{
+			binary_input = false;
+			break;
+		}
 		else
 			equivalent_decimal += (bit_value * pow(2, bit_weight));	
 
