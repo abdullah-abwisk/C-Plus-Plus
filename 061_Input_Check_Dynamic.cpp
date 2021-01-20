@@ -32,5 +32,5 @@ int main()
 	cout << "Odd numbers in the array are:" << odd_nums << endl;
 	
 	delete[] num_array;
-return 0;	
+	return 0;	
 }

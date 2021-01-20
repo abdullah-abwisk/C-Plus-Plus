@@ -10,7 +10,6 @@ int main()
 	{
 		cout << "Enter number " << i + 1 << ":";
 		cin >> arr[i];
-		*(Ptr + i) = arr[i];
 	}
 	
 	for (int i = 0; i <= 4; i++)
